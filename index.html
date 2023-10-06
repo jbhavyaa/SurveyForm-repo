@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey form</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style1.css" >
+</head>
+<body>
+<header>
+Product survey form
+</header>
+<div class="survey-form">
+    <form id="survey-form">
+       
+            <div class="fpname">
+                <label for="pname">Name</label>
+                <input id="pname" type="text" placeholder="Enter your name"> 
+            </div>
+            <div class="femail">
+                <label for="email">Email</label>
+                <input id="email" type="email" placeholder="Enter your email">
+        
+            </div>
+            <div class="fage">
+                <label for="Age">Age</label>
+            <input id="Age" type="number" placeholder="Enter your Age">
+    
+            </div>
+            <div class="frole">
+                <label for="role">Which option describes your current role</label>
+                <select id="role" name="option">
+                    <option value="Student"> Student</option>
+                    <option value="Working"> Working</option>
+                    <option value="Business"> Business</option>
+                    <option value="Home maker"> Home Maker</option>
+                    <option value="Other"> Other</option>
+                </select>
+            </div>
+            <div class="gender">
+                <label for="gender">Gender</label>
+                <select id="gender" name="option">
+                    <option value="male"> Male</option>
+                    <option value="female">Female</option>
+                    <option value="other"> Other</option>
+                    
+                </select>  
+            </div>
+            <div class="review">
+                <label for="review">What are your reviews about the product</label>
+                <textarea id="review" >Write your reviews</textarea>
+            </div>
+    
+            <input id="submit" type="submit">
+    </form>
+</div>
+</html>
+
+</body>
